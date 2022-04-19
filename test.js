@@ -9,3 +9,12 @@ if (num % 2 === 0){
 else {
     console.log("Number is odd!")
 }
+
+let password = 'chicken Gal'
+
+if (password.length >= 8 && password.indexOf(' ') === -1){
+    console.log('Valid password')
+}
+else {
+    console.log('Invalid password')
+}
